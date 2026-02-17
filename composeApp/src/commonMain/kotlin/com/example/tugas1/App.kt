@@ -24,19 +24,16 @@ fun App() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-
             Text(
                 text = "Halo, saya Prima Agusta Sembiring",
                 style = MaterialTheme.typography.titleMedium
             )
 
             Spacer(modifier = Modifier.height(8.dp))
-
             Text(
                 text = "NIM: 123140119",
                 style = MaterialTheme.typography.bodyMedium
             )
-
             Spacer(modifier = Modifier.height(20.dp))
 
             Button(
